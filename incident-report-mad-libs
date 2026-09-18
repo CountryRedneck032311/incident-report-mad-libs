@@ -19,7 +19,7 @@ incident_summaries = [
     f"At {time}, staff in {location} discovered {suspicious_item} controlling {device}.",
     f"Security cameras in {location} recorded {device} following {suspicious_item} at {time}.",
     f"A report from {location} claims that {suspicious_item} tried to log in to {device} at {time}.",
-    f"A demon sighting from{location}at {time} the reporter claims it came from {suspicious}"
+    f"A demon sighting from{location}at {time} the reporter claims it came from {suspicious_item}.",
 ]
 
 summary = random.choice(incident_summaries)
